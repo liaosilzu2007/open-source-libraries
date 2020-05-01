@@ -1,4 +1,4 @@
-package com.lzumetal.jodatime.test;
+package com.lzumetal.open.source.jodatime;
 
 import org.joda.time.*;
 import org.junit.Test;

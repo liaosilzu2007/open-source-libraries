@@ -1,4 +1,4 @@
-package com.lzumetal.gson.bigjson;
+package com.lzumetal.open.source.gson.bigjson;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;

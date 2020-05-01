@@ -9,16 +9,22 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>joda-time</artifactId>
+    <artifactId>metrics</artifactId>
 
     <dependencies>
         <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
         <dependency>
-            <groupId>joda-time</groupId>
-            <artifactId>joda-time</artifactId>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>io.dropwizard.metrics</groupId>
+            <artifactId>metrics-core</artifactId>
         </dependency>
     </dependencies>
 </project>

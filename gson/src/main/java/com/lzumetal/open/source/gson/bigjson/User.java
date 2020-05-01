@@ -1,4 +1,4 @@
-package com.lzumetal.gson.bigjson;
+package com.lzumetal.open.source.gson.bigjson;
 
 import java.util.Date;
 import java.util.List;

@@ -9,16 +9,20 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>joda-time</artifactId>
+    <artifactId>zxing</artifactId>
 
     <dependencies>
         <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
+            <groupId>com.google.zxing</groupId>
+            <artifactId>core</artifactId>
         </dependency>
         <dependency>
-            <groupId>joda-time</groupId>
-            <artifactId>joda-time</artifactId>
+            <groupId>com.google.zxing</groupId>
+            <artifactId>javase</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
         </dependency>
     </dependencies>
 </project>

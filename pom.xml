@@ -18,12 +18,8 @@
 
     <modules>
         <module>joda-time</module>
-        <module>gson</module>
-        <module>zxing</module>
         <module>metrics</module>
         <module>im4java</module>
-        <module>httpclient</module>
-        <module>poi</module>
     </modules>
 
     <properties>
@@ -84,7 +80,7 @@
                 <!--<scope>test</scope>-->
             </dependency>
 
-            <!-- zxing -->
+            <!-- zxing二维码 -->
             <dependency>
                 <groupId>com.google.zxing</groupId>
                 <artifactId>core</artifactId>
@@ -108,17 +104,6 @@
                 <version>${im4java.version}</version>
             </dependency>
 
-            <!-- httpclient -->
-            <dependency>
-                <groupId>org.apache.httpcomponents</groupId>
-                <artifactId>httpclient</artifactId>
-                <version>${httpclient.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.httpcomponents</groupId>
-                <artifactId>httpmime</artifactId>
-                <version>${httpclient.version}</version>
-            </dependency>
 
             <!-- poi -->
             <dependency>
